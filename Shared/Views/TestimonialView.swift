@@ -18,6 +18,7 @@ struct TestimonialView: View {
                     TestimonialTitleView(name: testimonial.name, colorMode: testimonial.colorMode, status: testimonial.status)
                 }
                 TestimonialHeaderView(text: testimonial.header, colorMode: testimonial.colorMode)
+                TestimonialDetailView(text: testimonial.detail, colorMode: testimonial.colorMode)
             }
             .padding()
         }

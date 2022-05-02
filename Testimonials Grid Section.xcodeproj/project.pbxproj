@@ -19,6 +19,7 @@
 		90FA9A2B281F68D2004BC2C9 /* TestimonialPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */; };
 		90FA9A2D281F695A004BC2C9 /* TestimonialTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A2C281F695A004BC2C9 /* TestimonialTitleView.swift */; };
 		90FA9A2F281F6AD7004BC2C9 /* TestimonialHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A2E281F6AD7004BC2C9 /* TestimonialHeaderView.swift */; };
+		90FA9A31281F6BB1004BC2C9 /* TestimonialDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A30281F6BB1004BC2C9 /* TestimonialDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialPhotoView.swift; sourceTree = "<group>"; };
 		90FA9A2C281F695A004BC2C9 /* TestimonialTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialTitleView.swift; sourceTree = "<group>"; };
 		90FA9A2E281F6AD7004BC2C9 /* TestimonialHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialHeaderView.swift; sourceTree = "<group>"; };
+		90FA9A30281F6BB1004BC2C9 /* TestimonialDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */,
 				90FA9A2C281F695A004BC2C9 /* TestimonialTitleView.swift */,
 				90FA9A2E281F6AD7004BC2C9 /* TestimonialHeaderView.swift */,
+				90FA9A30281F6BB1004BC2C9 /* TestimonialDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				90FA9A25281F5C08004BC2C9 /* BackgroundView.swift in Sources */,
 				90FA9A27281F5C4B004BC2C9 /* Testimonial.swift in Sources */,
+				90FA9A31281F6BB1004BC2C9 /* TestimonialDetailView.swift in Sources */,
 				90FA9A29281F6324004BC2C9 /* TestimonialView.swift in Sources */,
 				90FA9A2F281F6AD7004BC2C9 /* TestimonialHeaderView.swift in Sources */,
 				90FA9A2D281F695A004BC2C9 /* TestimonialTitleView.swift in Sources */,
