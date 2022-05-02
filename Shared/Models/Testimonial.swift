@@ -17,6 +17,16 @@ struct Testimonial {
     var hasQuotationMark: Bool = false
 }
 
+// MARK: Testimonial conforms to Hashable.
+
+extension Testimonial: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+    }
+}
+
+// MARK: TestimonialStorage Class.
+
 class TestimonialStorage: ObservableObject {
     @Published var testimonials: [Testimonial] = [
         .init(name: "Daniel Clifford", photo: Image("Daniel"), header: """
