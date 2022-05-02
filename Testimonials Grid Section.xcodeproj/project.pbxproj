@@ -13,6 +13,8 @@
 		90FA9A16281F59D7004BC2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A04281F59D6004BC2C9 /* ContentView.swift */; };
 		90FA9A17281F59D7004BC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA9A05281F59D7004BC2C9 /* Assets.xcassets */; };
 		90FA9A18281F59D7004BC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA9A05281F59D7004BC2C9 /* Assets.xcassets */; };
+		90FA9A25281F5C08004BC2C9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */; };
+		90FA9A27281F5C4B004BC2C9 /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		90FA9A0A281F59D7004BC2C9 /* Testimonials Grid Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testimonials Grid Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA9A10281F59D7004BC2C9 /* Testimonials Grid Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testimonials Grid Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA9A12281F59D7004BC2C9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				90FA9A04281F59D6004BC2C9 /* ContentView.swift */,
+				90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		90FA9A23281F59F7004BC2C9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FA9A25281F5C08004BC2C9 /* BackgroundView.swift in Sources */,
+				90FA9A27281F5C4B004BC2C9 /* Testimonial.swift in Sources */,
 				90FA9A15281F59D7004BC2C9 /* ContentView.swift in Sources */,
 				90FA9A13281F59D7004BC2C9 /* TestimonialsGridSectionApp.swift in Sources */,
 			);
