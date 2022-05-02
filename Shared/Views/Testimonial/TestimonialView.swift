@@ -11,7 +11,12 @@ struct TestimonialView: View {
     let testimonial: Testimonial
     var body: some View {
         ZStack(alignment:.topLeading) {
-            testimonial.featuredColor
+            ZStack(alignment: .topTrailing) {
+                testimonial.featuredColor
+                if testimonial.hasQuotationMark {
+                    TestimonialQuotationBackground()
+                }
+            }
             VStack(alignment: .leading, spacing: 16) {
                 HStack(spacing: 12) {
                     TestimonialPhotoView(photo: testimonial.photo)
