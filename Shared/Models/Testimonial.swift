@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+enum ColorMode {
+    case dark
+    case light
+}
+
 struct Testimonial {
     let name: String
     let photo: Image
@@ -15,6 +20,9 @@ struct Testimonial {
     var status: String = "Verified Graduate"
     var featuredColor: Color = .white
     var hasQuotationMark: Bool = false
+    var colorMode: ColorMode {
+        featuredColor == .white ? .light : .dark
+    }
 }
 
 // MARK: Testimonial conforms to Hashable.
@@ -22,6 +30,23 @@ struct Testimonial {
 extension Testimonial: Hashable {
     func hash(into hasher: inout Hasher) {
         hasher.combine(name)
+    }
+}
+
+// MARK: Default Implementation of Testimonial.
+
+extension Testimonial {
+    init() {
+        self.name = "Daniel Clifford"
+        self.photo = Image("Daniel")
+        self.header = """
+I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny's worth.
+"""
+        self.detail = """
+I was an EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and more grueling - time of my life. Since completing the course, I've successfully switched careers, working as a Software Engineer at a VR startup.
+"""
+        self.featuredColor = Color("DanielColor")
+        self.hasQuotationMark = true
     }
 }
 

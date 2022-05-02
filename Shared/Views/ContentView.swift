@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var testimonialStorage: TestimonialStorage = .init()
     var body: some View {
         ZStack {
             BackgroundView()
             ScrollView {
                 VStack {
-                    
+                    ForEach(testimonialStorage.testimonials, id: \.self) { testimonial in
+                        TestimonialView(testimonial: testimonial)
+                    }
                 }
             }
         }

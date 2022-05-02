@@ -15,6 +15,8 @@
 		90FA9A18281F59D7004BC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA9A05281F59D7004BC2C9 /* Assets.xcassets */; };
 		90FA9A25281F5C08004BC2C9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */; };
 		90FA9A27281F5C4B004BC2C9 /* Testimonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */; };
+		90FA9A29281F6324004BC2C9 /* TestimonialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A28281F6324004BC2C9 /* TestimonialView.swift */; };
+		90FA9A2B281F68D2004BC2C9 /* TestimonialPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		90FA9A12281F59D7004BC2C9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testimonial.swift; sourceTree = "<group>"; };
+		90FA9A28281F6324004BC2C9 /* TestimonialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialView.swift; sourceTree = "<group>"; };
+		90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialPhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				90FA9A04281F59D6004BC2C9 /* ContentView.swift */,
 				90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */,
+				90FA9A28281F6324004BC2C9 /* TestimonialView.swift */,
+				90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 			files = (
 				90FA9A25281F5C08004BC2C9 /* BackgroundView.swift in Sources */,
 				90FA9A27281F5C4B004BC2C9 /* Testimonial.swift in Sources */,
+				90FA9A29281F6324004BC2C9 /* TestimonialView.swift in Sources */,
+				90FA9A2B281F68D2004BC2C9 /* TestimonialPhotoView.swift in Sources */,
 				90FA9A15281F59D7004BC2C9 /* ContentView.swift in Sources */,
 				90FA9A13281F59D7004BC2C9 /* TestimonialsGridSectionApp.swift in Sources */,
 			);
