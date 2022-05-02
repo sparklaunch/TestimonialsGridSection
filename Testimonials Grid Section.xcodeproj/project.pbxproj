@@ -104,13 +104,9 @@
 		90FA9A22281F59F1004BC2C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90FA9A32281F6E45004BC2C9 /* Testimonial */,
 				90FA9A04281F59D6004BC2C9 /* ContentView.swift */,
 				90FA9A24281F5C08004BC2C9 /* BackgroundView.swift */,
-				90FA9A28281F6324004BC2C9 /* TestimonialView.swift */,
-				90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */,
-				90FA9A2C281F695A004BC2C9 /* TestimonialTitleView.swift */,
-				90FA9A2E281F6AD7004BC2C9 /* TestimonialHeaderView.swift */,
-				90FA9A30281F6BB1004BC2C9 /* TestimonialDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +117,18 @@
 				90FA9A26281F5C4B004BC2C9 /* Testimonial.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90FA9A32281F6E45004BC2C9 /* Testimonial */ = {
+			isa = PBXGroup;
+			children = (
+				90FA9A2C281F695A004BC2C9 /* TestimonialTitleView.swift */,
+				90FA9A2E281F6AD7004BC2C9 /* TestimonialHeaderView.swift */,
+				90FA9A30281F6BB1004BC2C9 /* TestimonialDetailView.swift */,
+				90FA9A2A281F68D2004BC2C9 /* TestimonialPhotoView.swift */,
+				90FA9A28281F6324004BC2C9 /* TestimonialView.swift */,
+			);
+			path = Testimonial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
