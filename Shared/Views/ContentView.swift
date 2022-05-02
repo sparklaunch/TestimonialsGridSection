@@ -13,11 +13,12 @@ struct ContentView: View {
         ZStack {
             BackgroundView()
             ScrollView {
-                VStack {
+                VStack(spacing: 24) {
                     ForEach(testimonialStorage.testimonials, id: \.self) { testimonial in
                         TestimonialView(testimonial: testimonial)
                     }
                 }
+                .padding()
             }
         }
     }

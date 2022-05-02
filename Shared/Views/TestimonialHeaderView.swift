@@ -16,6 +16,7 @@ struct TestimonialHeaderView: View {
             .fontWeight(.semibold)
             .foregroundColor(colorMode == .dark ? .white : Color("TitleColor"))
             .lineSpacing(5)
+            .fixedSize(horizontal: false, vertical: true)
     }
 }
 

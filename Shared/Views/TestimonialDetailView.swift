@@ -16,6 +16,7 @@ struct TestimonialDetailView: View {
             .fontWeight(.semibold)
             .foregroundColor(colorMode == .dark ? .white.opacity(0.5) : Color("BodyColor"))
             .lineSpacing(5)
+            .fixedSize(horizontal: false, vertical: true)
     }
 }
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct TestimonialView: View {
     let testimonial: Testimonial
     var body: some View {
-        ZStack {
+        ZStack(alignment:.topLeading) {
             testimonial.featuredColor
             VStack(alignment: .leading, spacing: 16) {
                 HStack(spacing: 12) {
@@ -20,8 +20,10 @@ struct TestimonialView: View {
                 TestimonialHeaderView(text: testimonial.header, colorMode: testimonial.colorMode)
                 TestimonialDetailView(text: testimonial.detail, colorMode: testimonial.colorMode)
             }
-            .padding()
+            .padding(24)
         }
+        .cornerRadius(15)
+        .shadow(radius: 10)
         .fixedSize(horizontal: false, vertical: true)
     }
 }
@@ -29,6 +31,7 @@ struct TestimonialView: View {
 struct TestimonialView_Previews: PreviewProvider {
     static var previews: some View {
         TestimonialView(testimonial: .init())
+            .padding()
             .previewLayout(.sizeThatFits)
     }
 }
