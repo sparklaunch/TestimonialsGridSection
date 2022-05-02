@@ -19,8 +19,8 @@
 		90FA9A03281F59D6004BC2C9 /* TestimonialsGridSectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialsGridSectionApp.swift; sourceTree = "<group>"; };
 		90FA9A04281F59D6004BC2C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90FA9A05281F59D7004BC2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90FA9A0A281F59D7004BC2C9 /* TestimonialsGridSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestimonialsGridSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90FA9A10281F59D7004BC2C9 /* TestimonialsGridSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestimonialsGridSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FA9A0A281F59D7004BC2C9 /* Testimonials Grid Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testimonials Grid Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FA9A10281F59D7004BC2C9 /* Testimonials Grid Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testimonials Grid Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA9A12281F59D7004BC2C9 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		90FA9A02281F59D6004BC2C9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90FA9A03281F59D6004BC2C9 /* TestimonialsGridSectionApp.swift */,
-				90FA9A04281F59D6004BC2C9 /* ContentView.swift */,
-				90FA9A05281F59D7004BC2C9 /* Assets.xcassets */,
+				90FA9A23281F59F7004BC2C9 /* Models */,
+				90FA9A22281F59F1004BC2C9 /* Views */,
+				90FA9A21281F59E9004BC2C9 /* App */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		90FA9A0B281F59D7004BC2C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90FA9A0A281F59D7004BC2C9 /* TestimonialsGridSection.app */,
-				90FA9A10281F59D7004BC2C9 /* TestimonialsGridSection.app */,
+				90FA9A0A281F59D7004BC2C9 /* Testimonials Grid Section.app */,
+				90FA9A10281F59D7004BC2C9 /* Testimonials Grid Section.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		90FA9A21281F59E9004BC2C9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				90FA9A05281F59D7004BC2C9 /* Assets.xcassets */,
+				90FA9A03281F59D6004BC2C9 /* TestimonialsGridSectionApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		90FA9A22281F59F1004BC2C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90FA9A04281F59D6004BC2C9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		90FA9A23281F59F7004BC2C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90FA9A09281F59D7004BC2C9 /* TestimonialsGridSection (iOS) */ = {
+		90FA9A09281F59D7004BC2C9 /* Testimonials Grid Section (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90FA9A1B281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "TestimonialsGridSection (iOS)" */;
+			buildConfigurationList = 90FA9A1B281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "Testimonials Grid Section (iOS)" */;
 			buildPhases = (
 				90FA9A06281F59D7004BC2C9 /* Sources */,
 				90FA9A07281F59D7004BC2C9 /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "TestimonialsGridSection (iOS)";
+			name = "Testimonials Grid Section (iOS)";
 			productName = "TestimonialsGridSection (iOS)";
-			productReference = 90FA9A0A281F59D7004BC2C9 /* TestimonialsGridSection.app */;
+			productReference = 90FA9A0A281F59D7004BC2C9 /* Testimonials Grid Section.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90FA9A0F281F59D7004BC2C9 /* TestimonialsGridSection (macOS) */ = {
+		90FA9A0F281F59D7004BC2C9 /* Testimonials Grid Section (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90FA9A1E281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "TestimonialsGridSection (macOS)" */;
+			buildConfigurationList = 90FA9A1E281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "Testimonials Grid Section (macOS)" */;
 			buildPhases = (
 				90FA9A0C281F59D7004BC2C9 /* Sources */,
 				90FA9A0D281F59D7004BC2C9 /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "TestimonialsGridSection (macOS)";
+			name = "Testimonials Grid Section (macOS)";
 			productName = "TestimonialsGridSection (macOS)";
-			productReference = 90FA9A10281F59D7004BC2C9 /* TestimonialsGridSection.app */;
+			productReference = 90FA9A10281F59D7004BC2C9 /* Testimonials Grid Section.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90FA9A01281F59D6004BC2C9 /* Build configuration list for PBXProject "TestimonialsGridSection" */;
+			buildConfigurationList = 90FA9A01281F59D6004BC2C9 /* Build configuration list for PBXProject "Testimonials Grid Section" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90FA9A09281F59D7004BC2C9 /* TestimonialsGridSection (iOS) */,
-				90FA9A0F281F59D7004BC2C9 /* TestimonialsGridSection (macOS) */,
+				90FA9A09281F59D7004BC2C9 /* Testimonials Grid Section (iOS) */,
+				90FA9A0F281F59D7004BC2C9 /* Testimonials Grid Section (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.TestimonialsGridSection;
-				PRODUCT_NAME = TestimonialsGridSection;
+				PRODUCT_NAME = "Testimonials Grid Section";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.TestimonialsGridSection;
-				PRODUCT_NAME = TestimonialsGridSection;
+				PRODUCT_NAME = "Testimonials Grid Section";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.TestimonialsGridSection;
-				PRODUCT_NAME = TestimonialsGridSection;
+				PRODUCT_NAME = "Testimonials Grid Section";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jinwook.kim.TestimonialsGridSection;
-				PRODUCT_NAME = TestimonialsGridSection;
+				PRODUCT_NAME = "Testimonials Grid Section";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90FA9A01281F59D6004BC2C9 /* Build configuration list for PBXProject "TestimonialsGridSection" */ = {
+		90FA9A01281F59D6004BC2C9 /* Build configuration list for PBXProject "Testimonials Grid Section" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FA9A19281F59D7004BC2C9 /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90FA9A1B281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "TestimonialsGridSection (iOS)" */ = {
+		90FA9A1B281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "Testimonials Grid Section (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FA9A1C281F59D7004BC2C9 /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90FA9A1E281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "TestimonialsGridSection (macOS)" */ = {
+		90FA9A1E281F59D7004BC2C9 /* Build configuration list for PBXNativeTarget "Testimonials Grid Section (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90FA9A1F281F59D7004BC2C9 /* Debug */,
