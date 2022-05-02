@@ -13,18 +13,9 @@ struct TestimonialView: View {
         ZStack {
             testimonial.featuredColor
             VStack(spacing: 16) {
-                HStack {
+                HStack(spacing: 12) {
                     TestimonialPhotoView(photo: testimonial.photo)
-                    VStack {
-                        Text(testimonial.name)
-                            .font(.title3)
-                            .fontWeight(.semibold)
-                            .foregroundColor(testimonial.colorMode == .dark ? .white : Color("TitleColor"))
-                        Text(testimonial.status)
-                            .font(.body)
-                            .fontWeight(.regular)
-                            .foregroundColor(testimonial.colorMode == .dark ? .white.opacity(0.5) : Color("BodyColor"))
-                    }
+                    TestimonialTitleView(name: testimonial.name, colorMode: testimonial.colorMode, status: testimonial.status)
                 }
             }
         }
