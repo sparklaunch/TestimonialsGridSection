@@ -12,13 +12,16 @@ struct TestimonialView: View {
     var body: some View {
         ZStack {
             testimonial.featuredColor
-            VStack(spacing: 16) {
+            VStack(alignment: .leading, spacing: 16) {
                 HStack(spacing: 12) {
                     TestimonialPhotoView(photo: testimonial.photo)
                     TestimonialTitleView(name: testimonial.name, colorMode: testimonial.colorMode, status: testimonial.status)
                 }
+                TestimonialHeaderView(text: testimonial.header, colorMode: testimonial.colorMode)
             }
+            .padding()
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
